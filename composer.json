@@ -1,0 +1,37 @@
+{
+    "name": "ruwmapps/dynamicform",
+    "description": "It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.",
+    "keywords": [
+        "ruwmapps",
+        "yii2",
+        "extension",
+        "widget",
+        "yii2-dynamicform",
+        "copy DOM element",
+        "yii2 dynamic form"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/ruwmapps/dynamicform/issues",
+        "wiki": "https://github.com/ruwmapps/dynamicform/wiki/",
+        "source": "https://github.com/ruwmapps/dynamicform"
+    },
+    "authors": [
+        {
+            "name": "Web Mobille Apps",
+            "email": "dev@wmapps.ru",
+            "homepage": "http://wmapps.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.5",
+        "symfony/css-selector": "~2.8|~3.0",
+        "symfony/dom-crawler": "~2.8|~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ruwmapps\\dynamicform\\": "src"
+        }
+    }
+}
